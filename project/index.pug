@@ -3,5 +3,27 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
+        title Profile card component
+        link(rel="icon", href="images/favicon-32x32.png")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swa")
+        link(rel="stylesheet", href="normalize.css")
+        link(rel="stylesheet", href="style.css")
     body
+        div.page
+            div.container
+                div.card-header
+                div.card-body
+                    h2 Victor Crest #[span 26]
+                    p London
+                div.card-footer
+                    div.followers
+                        h2 80K
+                        span Followers
+                    div.likes
+                        h2 803K
+                        span Likes
+                    div.photos
+                        h2 1.4K
+                        span Photos
+        script(src="http://localhost:35729/livereload.js")
